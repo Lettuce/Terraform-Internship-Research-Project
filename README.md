@@ -16,19 +16,19 @@ You will have to make an account with Daydream, it is free and a well-known trus
 <ins>**Step 4 (AI diffusion setup):**</ins>  
 Back on TouchDesigner, navigate to the purple section titled “SteamDiffusion Input-Output”, and select the node titled “StreamDiffusionTD”. Once this has been selected:  
  - A window menu should pop up with parameters that can be adjusted. (If it does not, pressing ‘p’ on your keyboard will open it.)  
-    - Once in this window menu, navigate to the tab named “Install”. Here, the API key you received from the previous step should be entered into the section called “DayDream Apikey”. When it says “Loaded”, then it has been loaded successfully  
-    - Now, navigate to the tab named “Settings 1”  
-    - Once in this tab, locate Start Server and press the button next to it that says “Pulse”  
-    - Now, once the server has finished starting (it may take some time), you may select the “Pulse” button next to “Start Stream”   
-    - Wait for a bit, and it should load. You should see an ai output on screen (default has been set to a topological view of mountains and water)
+ - Once in this window menu, navigate to the tab named “Install”. Here, the API key you received from the previous step should be entered into the section called “DayDream Apikey”. When it says “Loaded”, then it has been loaded successfully
+ - Now, navigate to the tab named “Settings 1”  
+ - Once in this tab, locate Start Server and press the button next to it that says “Pulse”  
+ - Now, once the server has finished starting (it may take some time), you may select the “Pulse” button next to “Start Stream”   
+ - Wait for a bit, and it should load. You should see an ai output on screen (default has been set to a topological view of mountains and water)
 
 <ins>**Step 5 (Display setup and output):**</ins>  
 **Note: The aspect ratio has been set to 5:3 through the node titled “res1”. If you wish to change the aspect ratio, it can be done through this node under the tab titled “Common” and through the parameter titled “Aspect”**  On the right side of the program, find the green box titled “WindowOut” and navigate to the very far right end of the box. Select the node titled “window1” and a window menu should pop up. (Again, if the window menu does not display, pressing ‘p’ should display it). Once in the menu:  
-    - Locate the parameter called “Display” inside the tab named “Window”. It should be 5 or so parameters from the top of the menu.  
-    - Think about your display setup and which display you would like the AI-processed output to be visible on. In TouchDesigner, monitors start at 0 and increase from left to right. For example, even if your main monitor is on the left, it will be listed as “Display 0”, and every monitor on the right from it will have a display number one greater than the one to the left of it  
-    - Once the proper display has been chosen, remain under the tab named “Window” and locate the section that has “Width” and “Height”. It may be grayed out, changing the parameter “Opening Size” to “Custom” will fix this. Change the Width and Height to the same dimensions as your display.  
-    - Now, navigate to the tab named “Open/Close” at the top, and locate the parameter named “Open as Separate Window”  
-    - Press “Open” to open a window on the chosen display, separate from the TouchDesigner program. If you wish to close this window, navigate to the parameter titled “Close” and press “Close”
+ - Locate the parameter called “Display” inside the tab named “Window”. It should be 5 or so parameters from the top of the menu.  
+ - Think about your display setup and which display you would like the AI-processed output to be visible on. In TouchDesigner, monitors start at 0 and increase from left to right. For example, even if your main monitor is on the left, it will be listed as “Display 0”, and every monitor on the right from it will have a display number one greater than the one to the left of it  
+ - Once the proper display has been chosen, remain under the tab named “Window” and locate the section that has “Width” and “Height”. It may be grayed out, changing the parameter “Opening Size” to “Custom” will fix this. Change the Width and Height to the same dimensions as your display.  
+ - Now, navigate to the tab named “Open/Close” at the top, and locate the parameter named “Open as Separate Window”  
+ - Press “Open” to open a window on the chosen display, separate from the TouchDesigner program. If you wish to close this window, navigate to the parameter titled “Close” and press “Close”
 
 <ins>**Step 6 (optional) (Changing the prompt and AI sensitivity settings)**</ins>  
 If you wish to alter the prompt or the settings in the AI model such as canny, depth, feedback, etc, this can be done rather simply.  
