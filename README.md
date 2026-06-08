@@ -15,7 +15,7 @@ You will have to make an account with Daydream, it is free and a well-known trus
 
 <ins>**Step 4 (AI diffusion setup):**</ins>  
 Back on TouchDesigner, navigate to the purple section titled “SteamDiffusion Input-Output”, and select the node titled “StreamDiffusionTD”. Once this has been selected:  
-    - A window menu should pop up with parameters that can be adjusted. (If it does not, pressing ‘p’ on your keyboard will open it.)  
+ - A window menu should pop up with parameters that can be adjusted. (If it does not, pressing ‘p’ on your keyboard will open it.)  
     - Once in this window menu, navigate to the tab named “Install”. Here, the API key you received from the previous step should be entered into the section called “DayDream Apikey”. When it says “Loaded”, then it has been loaded successfully  
     - Now, navigate to the tab named “Settings 1”  
     - Once in this tab, locate Start Server and press the button next to it that says “Pulse”  
