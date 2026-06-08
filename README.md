@@ -6,7 +6,7 @@ Install the TouchDesigner file (.toe) from my github page: https://github.com/le
 (Yes, my username is just lettuce)
 
 <ins>**Step 2 (hardware setup):**</ins>  
-Ensure your depth camera, preferably a Kinect or Kinect model, works properly. On the left side of the program, there is an operator titled “kinect1”, which should automatically connect to your Kinect camera. If it does not, then there is a problem with the depth feature on your camera.
+Ensure your depth camera, preferably a Kinect or Kinect model, works properly. On the left side of the program, there is an operator titled “kinect1”, which should automatically connect to your Kinect camera. If it does not, then it's most likely a problem with the depth feature on your camera. If your Kinect Camera does appear but whitescreens, freezes randomly, or has other similar problems this is most likely because your computer has disabled the microphone on your Kinect Camera. So, be sure that the microphone is enabled. 
 
 <ins>**Step 3 (API key creation):**</ins>  
 Get an API key for the ai model by going to the website Daydream, visited here:
